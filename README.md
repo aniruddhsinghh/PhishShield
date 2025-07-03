@@ -34,12 +34,19 @@
 
 phishshield/
 ├── app.py # Flask main application
+
 ├── utils/
+
 │ ├── scanner.py # Core scanning logic
+
 │ ├── phish_model.pkl # Trained XGBoost model
+
 │ └── tld_encoder.pkl # Encoded TLD transformer
+
 ├── requirements.txt
+
 ├── templates/
+
 │ └── index.html # Web UI template
 
 Obtain API keys from the following services:
